@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;"   *ngFor="let item of dataArray">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{item.existAnimal}}</h5>
+    <h5 class="card-title">{{item.size}}</h5>
+    <h5 class="card-title">{{item.age}}</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a routerLink="/getbyId/{{item.animalId}}" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
